@@ -24,8 +24,12 @@ h1 {
   font-weight: bold;
   text-align: center;
   font-size: 64px;
+}
+
+.header {
   margin: 50px;
   outline: 20px rgba(134, 17, 17, 0.63) groove;
+  padding: 10px;
 }
 
 h2 {
