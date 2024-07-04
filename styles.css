@@ -36,9 +36,14 @@ h2 {
 }
 
 .food {
+  box-sizing: border-box;
   font-size: 20px;
   background-color: whitesmoke;
   font-weight: bold;
+  border: 8px groove gray;
+  padding: 5px;
+  width: 140px;
+  margin: 5px;
 }
 
 .intro {
@@ -47,9 +52,15 @@ h2 {
 }
 
 .title {
+  box-sizing: border-box;
   background-color: antiquewhite;
   font-weight: bold;
   font-size: 32px;
+  padding: 30px;
+  width: 500px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .tip  {
