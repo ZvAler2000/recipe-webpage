@@ -15,7 +15,7 @@ div {
 
 html {
   font-family: 'Courier New', Courier, monospace;
-  background-color: whitesmoke;
+  background-color: rgba(248, 223, 255, 0.185);
 }
 
 img {
@@ -26,7 +26,7 @@ img {
 }
 
 h1 {
-  background-color: wheat;
+  background-color: rgba(247, 219, 255, 0.301);
   color: gray;
   font-family: 'Courier New', Courier, monospace;
   font-weight: bold;
@@ -36,7 +36,7 @@ h1 {
 
 .header {
   margin: 50px;
-  outline: 20px rgba(134, 17, 17, 0.63) groove;
+  outline: 20px rgba(54, 187, 248, 0.671) groove;
   padding: 10px;
 }
 
@@ -46,9 +46,9 @@ h2 {
 
 .food {
   font-size: 20px;
-  background-color: whitesmoke;
+  background-color: rgba(247, 219, 255, 0.301);
   font-weight: bold;
-  border: 8px groove gray;
+  border: 8px groove rgba(54, 187, 248, 0.671);
   padding: 5px;
   max-width: 140px;
   margin: 5px;
@@ -57,13 +57,13 @@ h2 {
 
 .intro {
   box-sizing: border-box;
-  background-color: antiquewhite;
+  background-color: rgba(247, 219, 255, 0.301);
   font-family: 'Courier New', Courier, monospace;
   padding: 8px;
 }
 
 .title {
-  background-color: wheat;
+  background-color: rgba(233, 171, 252, 0.205);
   font-weight: bold;
   font-size: 32px;
   padding: 30px;
@@ -74,23 +74,21 @@ h2 {
 }
 
 .tip  {
-  background-color: burlywood;
   padding: 8px;
 }
 
 .outro {
   font-size: 24px;
-  background-color: burlywood;
   color: black;
   text-align: center;
   padding: 8px;
 }
 
 .group {
-  background-color: antiquewhite;
+  background-color: rgba(247, 219, 255, 0.301);
   color: black;
   padding: 8px;
-  border: 8px groove rgba(134, 17, 17, 0.63);
+  border: 8px groove rgba(54, 187, 248, 0.671);
   margin: 8px auto 8px;
   display: flex;
 }
@@ -107,7 +105,7 @@ footer {
 .group .particle {
   flex: 1;
   color: black;
-  background-color: antiquewhite;
+  background-color: rgba(193, 237, 255, 0.301);
   margin: 4px;
   text-align: center;
 }
