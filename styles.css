@@ -74,15 +74,17 @@ h2 {
 }
 
 .tip  {
-  background-color: goldenrod;
+  background-color: burlywood;
+  padding: 8px;
 }
 
 .outro {
   font-size: 24px;
   background-color: burlywood;
-  color: darkolivegreen;
+  color: black;
   text-align: center;
   margin-bottom: 50px;
+  padding: 8px;
 }
 
 .group {
@@ -91,6 +93,7 @@ h2 {
   padding: 8px;
   border: 8px groove rgba(134, 17, 17, 0.63);
   margin: 8px auto 8px;
+  display: flex;
 }
 
 footer {
@@ -100,4 +103,11 @@ footer {
   height: 40px;
   background-color: rgba(206, 206, 206, 0.85);
   padding: 0px 8px 0px;
+}
+
+.group .particle {
+  flex: 1;
+  color: black;
+  background-color: antiquewhite;
+  margin: 4px;
 }
