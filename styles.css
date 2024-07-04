@@ -1,5 +1,12 @@
 /* styles.css */
 
+/* Sets all elements to have border-box type of box-sizing */
+*,
+*::before
+*::after {
+  box-sizing: border-box;
+}
+
 div {
     color: white;
     background-color: black;
@@ -36,7 +43,6 @@ h2 {
 }
 
 .food {
-  box-sizing: border-box;
   font-size: 20px;
   background-color: whitesmoke;
   font-weight: bold;
@@ -44,16 +50,18 @@ h2 {
   padding: 5px;
   width: 140px;
   margin: 5px;
+  text-align: center;
 }
 
 .intro {
+  box-sizing: border-box;
   background-color: antiquewhite;
   font-family: 'Courier New', Courier, monospace;
+  padding: 8px;
 }
 
 .title {
-  box-sizing: border-box;
-  background-color: antiquewhite;
+  background-color: wheat;
   font-weight: bold;
   font-size: 32px;
   padding: 30px;
@@ -72,4 +80,12 @@ h2 {
   background-color: burlywood;
   color: darkolivegreen;
   text-align: center;
+}
+
+.group {
+  background-color: antiquewhite;
+  color: black;
+  padding: 8px;
+  border: 8px groove rgba(134, 17, 17, 0.63);
+  margin: 8px auto 8px;
 }
